@@ -30,7 +30,7 @@ nav a:hover{
 }
 
 nav a:active{
-  color: gray
+  color: gray;
 }
 
 h1 {
@@ -68,6 +68,6 @@ footer a:hover {
 }
 
 footer a:active{
-  color: gray
+  color: green;
 }
 
