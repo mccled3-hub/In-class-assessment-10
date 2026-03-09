@@ -34,16 +34,17 @@ nav a:active{
   color: gray;
 }
 
+
+.creepy {
+  float: left;
+  font-weight: 700;
+}
+
 h1 {
   text-size: 22px;
   color: white;
   text-transform: uppercase;
   margin-bottom: 5px;
-}
-
-.creepy {
-  float: left;
-  font-weight: 700;
 }
 
 article {   
@@ -53,6 +54,7 @@ article {
 
 .pasta {
   position: sticky;
+  top: 0;
 }
 
 footer a{
