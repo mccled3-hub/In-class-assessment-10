@@ -2,7 +2,9 @@
   padding: 10px;
   margin: 25px;
   text-size: 16px;
-  background-color: aqua;/*test*/
+  color: red;
+  background-color: black;/*test*/
+  box-sizing: border-box;
 }
 
 
@@ -44,7 +46,6 @@ h1 {
 }
 
 article {   
-  box-sizing: border-box;
   display: inline-block;
   width: 500px;
 }
