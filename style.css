@@ -12,13 +12,17 @@ header {
   width: 100vw;
   position: fixed;
   z-index: 4;
-  display: inline;
   float: right;
   top: 0px;
   left: 0px;
   background-color: gray;
   text-transform: uppercase;
-  font-weight: bold;
+}
+
+nav a{
+  padding: 20px;
+  text-decoration: none;
+  display: inline;
 }
 
 nav a:link{
@@ -46,6 +50,7 @@ h1 {
 
 .creepy {
   float: left;
+  font-weight: 700;
 }
 
 article {   
