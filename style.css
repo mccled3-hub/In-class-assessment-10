@@ -1,7 +1,7 @@
 *{
   padding: 10px;
   margin: 25px;
-  box-sizing: border-box;
+
   text-size: 16px;
   background-color: aqua;/*test*/
 }
@@ -36,7 +36,8 @@ h1 {
   color: white;
 }
 
-article {  
+article {   
+  box-sizing: border-box;
   display: inline-block;
   width: 500px;
 }
