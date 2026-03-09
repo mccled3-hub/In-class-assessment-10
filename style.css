@@ -62,14 +62,13 @@ pasta {
   position: sticky;
 }
 
-footer {
+footer a{
   display: inline-block;
   width: 500px;
 }
 
 footer a:link{
-  text-decoration: none;
-  color: red;
+  color: green;
 }
 
 footer a:hover {
@@ -77,6 +76,6 @@ footer a:hover {
 }
 
 footer a:active{
-  color: green;
+  color: white;
 }
 
