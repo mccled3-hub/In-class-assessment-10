@@ -9,6 +9,7 @@
 header {
   position: fixed;
   display: inline;
+  float: right;
 }
 
 article {
@@ -22,7 +23,7 @@ article {
 }
 
 .top-link {
-  float: right;
+  
 }
 
 pasta {
