@@ -1,7 +1,6 @@
 *{
   padding: 10px;
   margin: 25px;
-
   text-size: 16px;
   background-color: aqua;/*test*/
 }
@@ -11,7 +10,10 @@ nav {
   position: fixed;
   display: inline;
   float: right;
+  top: 0px;
   background-color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 nav a:link{
@@ -34,16 +36,17 @@ nav a:active{
 h1 {
   text-size: 22px;
   color: white;
+  text-transform: uppercase;
+}
+
+.creepy {
+  float: left;
 }
 
 article {   
   box-sizing: border-box;
   display: inline-block;
   width: 500px;
-}
-
-.creepy {
-  float: left;
 }
 
 pasta {
