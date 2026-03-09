@@ -23,15 +23,7 @@ nav a{
   padding: 20px;
   text-decoration: none;
   display: inline;
-}
-
-nav a:link{
-  text-decoration: none;
   color: red;
-}
-
-nav a:visited{
-  color: darkgray;
 }
 
 nav a:hover{
@@ -59,16 +51,13 @@ article {
   width: 500px;
 }
 
-pasta {
+.pasta {
   position: sticky;
 }
 
 footer a{
   display: inline-block;
   width: 500px;
-}
-
-footer a:link{
   color: green;
 }
 
