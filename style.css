@@ -10,6 +10,7 @@
 
 header {
   position: fixed;
+  z-index: 1;
   display: inline;
   float: right;
   top: 0px;
