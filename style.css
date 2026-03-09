@@ -1,8 +1,9 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 10px;
   margin: 25px;
+  box-sizing: border-box;
+  text-size: 16px;
+  background-color: aqua;/*test*/
 }
 
 
@@ -10,19 +11,39 @@ nav {
   position: fixed;
   display: inline;
   float: right;
+  background-color: gray;
 }
 
-article {
+nav a:link{
+  text-decoration: none;
+  color: red;
+}
+
+nav a:visited{
+  color: darkgray;
+}
+
+nav a:hover{
+  color: blue;
+}
+
+nav a:active{
+  color: gray
+}
+
+h1 {
+  text-size: 22px;
+  color: white;
+}
+
+article {  
   display: inline-block;
   width: 500px;
-
 }
 
 .creepy {
   float: left;
 }
-
-
 
 pasta {
   position: sticky;
@@ -33,6 +54,16 @@ footer {
   width: 500px;
 }
 
+footer a:link{
+  text-decoration: none;
+  color: red;
+}
+
 footer a:hover {
   text-decoration: none;
 }
+
+footer a:active{
+  color: gray
+}
+
