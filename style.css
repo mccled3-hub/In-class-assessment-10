@@ -63,10 +63,13 @@ article {
   text-align: justify;
 }
 
+.pic {
+ position: sticky;
+top: 0;
+}
+
 .pasta {
-  position: sticky;
-  top: 0;
-  float: right;
+float: right;
 }
 
 footer a{
