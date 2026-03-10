@@ -1,12 +1,14 @@
 *{
   padding: 0;
   margin: 0;
+}
+
+html {
   text-size: 16px;
   color: red;
   background-color: black;/*test*/
   box-sizing: border-box;
 }
-
 
 header {
   width: 100vw;
@@ -21,7 +23,7 @@ header {
 }
 
 nav a{
-  padding: 5px 10px;
+  padding: 0px 10px;
   text-decoration: none;
   display: inline;
   color: red;
@@ -68,8 +70,9 @@ article {
 }
 
 footer a{
-  display: inline-block;
-  width: 500px;
+  position: relative;
+  padding: 10px;
+  margin: 0px 0px 0px 25px;
   color: green;
 }
 
