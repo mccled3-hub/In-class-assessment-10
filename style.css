@@ -1,6 +1,6 @@
 *{
-  padding: 10px;
-  margin: 0px 0px 0px 25px;
+  padding: 0;
+  margin: 0;
   text-size: 16px;
   color: red;
   background-color: black;/*test*/
@@ -49,6 +49,12 @@ h1 {
   margin-bottom: 5px;
 }
 
+main {
+  position: relative;
+  padding: 10px;
+  margin: 0px 0px 0px 25px;
+}
+
 article {   
   display: inline-block;
   width: 500px;
@@ -58,6 +64,7 @@ article {
 .pasta {
   position: sticky;
   top: 0;
+  float: right;
 }
 
 footer a{
