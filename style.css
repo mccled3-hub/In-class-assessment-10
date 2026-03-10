@@ -47,9 +47,14 @@ nav a:active{
 
 h1 {
   text-size: 22px;
+  padding: 10px;
   color: white;
   text-transform: uppercase;
   margin-bottom: 30px;
+}
+
+.slender {
+  border-radius: 10px;
 }
 
 main {
